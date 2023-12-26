@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.isggeotek.fr/sinscrire</title>
+    <link rel="stylesheet" href="sources/inscription.css">
+    <link rel="stylesheet" href="sources/principal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="light-mode">
+    <header class="light-mode">
+        <nav id="menu">
+            <button id="ldbt">☀️</button>
+            <p class="onglet"><i class="fas fa-user"></i>Connexion</p>
+            <p class="onglet"><a href="S'inscrire.html"><i class="fas fa-user-plus"></i><u>S'inscrire</u></a></p>
+            <p class="onglet" id="separation">|</p>
+            <p class="onglet"><a href="télécharger.html"><i class="fas fa-download"></i>Télécharger</a></p>
+            <p class="onglet"><a href="assistance.html"><i class="fas fa-headset"></i>Assistance</a></p>
+            <p class="onglet"><a href="accueil.html"><i class="fas fa-home"></i>Accueil</a></p>
+        </nav>
+        <div id="burger-icon" class="burger">
+            <span class="burger-icon"></span>
+        </div>
+        <img class="logo" src="images/logo.png" alt="logo GEO TEK">
+    </header>
+    <main>
+        <section id="formulaire" class="light-mode">
+            <form method="post">
+                <h2 class="contact">S'inscrire</h2>
+                <div class="form">
+                    <fieldset>
+                        <label for="Femme">Madame</label>
+                        <input type="radio" name="genre" id="Femme" checked>
+                        <label for="Homme">Monsieur</label>
+                        <input type="radio" name="genre" id="Homme">
+                    </fieldset>
+                    <div class="nom">
+                    <input type="text" class="prenom" id="p" name="prenom" placeholder="Votre prenom">
+                    <input type="text" class="prenom" id="n" name="nom" placeholder="Votre nom">
+                    </div>
+                    <div class="nom">
+                    <input type="email" class="prenom" id="m" name="mail" placeholder="Votre email">
+                    <input type="tel" class="prenom" id="t" name="telephone" placeholder="°n de téléphone">
+                    <div id="mailError">
+                    </div>
+                    </div>
+                    <section id="nationalite">
+                        <label for="countries">Votre nationalité :</label>
+                        <select name="pays" id="countries"> 
+                            <optgroup label="Europe">
+                                <option value="albanie">Albanie</option>
+                                <option value="andorre">Andorre</option>
+                                <option value="autriche">Autriche</option>
+                                <option value="belarus">Belarus</option>
+                                <option value="belgique">Belgique</option>
+                                <option value="bosnie-herzegovine">Bosnie-Herzégovine</option>
+                                <option value="bulgarie">Bulgarie</option>
+                                <option value="croatie">Croatie</option>
+                                <option value="chypre">Chypre</option>
+                                <option value="republique-tcheque">République Tchèque</option>
+                                <option value="danemark">Danemark</option>
+                                <option value="estonie">Estonie</option>
+                                <option value="finlande">Finlande</option>
+                                <option value="france">France</option>
+                                <option value="allemagne">Allemagne</option>
+                                <option value="grece">Grèce</option>
+                                <option value="hongrie">Hongrie</option>
+                                <option value="islande">Islande</option>
+                                <option value="irlande">Irlande</option>
+                                <option value="italie">Italie</option>
+                                <option value="kosovo">Kosovo</option>
+                                <option value="lettonie">Lettonie</option>
+                                <option value="liechtenstein">Liechtenstein</option>
+                                <option value="lituanie">Lituanie</option>
+                                <option value="luxembourg">Luxembourg</option>
+                                <option value="malte">Malte</option>
+                                <option value="moldavie">Moldavie</option>
+                                <option value="monaco">Monaco</option>
+                                <option value="montenegro">Monténégro</option>
+                                <option value="pays-bas">Pays-Bas</option>
+                                <option value="macedoine-du-nord">Macédoine du Nord</option>
+                                <option value="norvege">Norvège</option>
+                                <option value="pologne">Pologne</option>
+                                <option value="portugal">Portugal</option>
+                                <option value="roumanie">Roumanie</option>
+                                <option value="russie">Russie</option>
+                                <option value="saint-marin">Saint-Marin</option>
+                                <option value="serbie">Sealand</option>
+                                <option value="serbie">Serbie</option>
+                                <option value="slovaquie">Slovaquie</option>
+                                <option value="slovenie">Slovénie</option>
+                                <option value="espagne">Espagne</option>
+                                <option value="suede">Suède</option>
+                                <option value="suisse">Suisse</option>
+                                <option value="ukraine">Ukraine</option>
+                                <option value="royaume-uni">Royaume-Uni</option>
+                                <option value="cite-du-vatican">Cité du Vatican</option>
+                            </optgroup>
+                            <optgroup label="Asie">
+                                <option value="afghanistan">Afghanistan</option>
+                                <option value="armenie">Arménie</option>
+                                <option value="azerbaidjan">Azerbaïdjan</option>
+                                <option value="bahrein">Bahreïn</option>
+                                <option value="bangladesh">Bangladesh</option>
+                                <option value="bhoutan">Bhoutan</option>
+                                <option value="birmanie">Birmanie</option>
+                                <option value="brunei">Brunei</option>
+                                <option value="cambodge">Cambodge</option>
+                                <option value="chine">Chine</option>
+                                <option value="chypre">Chypre</option>
+                                <option value="coree-du-nord">Corée du Nord</option>
+                                <option value="coree-du-sud">Corée du Sud</option>
+                                <option value="emirats-arabes-unis">Émirats arabes unis</option>
+                                <option value="georgie">Géorgie</option>
+                                <option value="inde">Inde</option>
+                                <option value="indonesie">Indonésie</option>
+                                <option value="iran">Iran</option>
+                                <option value="irak">Irak</option>
+                                <option value="israel">Israël</option>
+                                <option value="japon">Japon</option>
+                                <option value="jordanie">Jordanie</option>
+                                <option value="kazakhstan">Kazakhstan</option>
+                                <option value="kirghizistan">Kirghizistan</option>
+                                <option value="koweit">Koweït</option>
+                                <option value="laos">Laos</option>
+                                <option value="liban">Liban</option>
+                                <option value="malaisie">Malaisie</option>
+                                <option value="maldives">Maldives</option>
+                                <option value="mongolie">Mongolie</option>
+                                <option value="nepal">Népal</option>
+                                <option value="oman">Oman</option>
+                                <option value="ouzbekistan">Ouzbékistan</option>
+                                <option value="pakistan">Pakistan</option>
+                                <option value="philippines">Philippines</option>
+                                <option value="qatar">Qatar</option>
+                                <option value="russie">Russie</option>
+                                <option value="arabie-saoudite">Arabie saoudite</option>
+                                <option value="singapour">Singapour</option>
+                                <option value="sri-lanka">Sri Lanka</option>
+                                <option value="syrie">Syrie</option>
+                                <option value="tadjikistan">Tadjikistan</option>
+                                <option value="taiwan">Taïwan</option>
+                                <option value="thailande">Thaïlande</option>
+                                <option value="timor-oriental">Timor oriental</option>
+                                <option value="turkmenistan">Turkménistan</option>
+                                <option value="turquie">Turquie</option>
+                                <option value="vietnam">Vietnam</option>
+                                <option value="yemen">Yémen</option>
+                            </optgroup>
+                            <optgroup label="Amérique du Nord">
+                                <option value="antigua-et-barbuda">Antigua et Barbuda</option>
+                                <option value="bahamas">Bahamas</option>
+                                <option value="barbade">Barbade</option>
+                                <option value="belize">Belize</option>
+                                <option value="canada">Canada</option>
+                                <option value="costa-rica">Costa Rica</option>
+                                <option value="cuba">Cuba</option>
+                                <option value="dominique">Dominique</option>
+                                <option value="republique-dominicaine">République Dominicaine</option>
+                                <option value="el-salvador">El Salvador</option>
+                                <option value="grenade">Grenade</option>
+                                <option value="guatemala">Guatemala</option>
+                                <option value="haiti">Haïti</option>
+                                <option value="honduras">Honduras</option>
+                                <option value="jamaica">Jamaïque</option>
+                                <option value="mexique">Mexique</option>
+                                <option value="nicaragua">Nicaragua</option>
+                                <option value="panama">Panama</option>
+                                <option value="saint-kitts-et-nevis">Saint-Kitts-et-Nevis</option>
+                                <option value="sainte-lucie">Sainte-Lucie</option>
+                                <option value="saint-vincent-et-les-grenadines">Saint-Vincent-et-les-Grenadines</option>
+                                <option value="trinite-et-tobago">Trinité-et-Tobago</option>
+                                <option value="etats-unis">États-Unis</option>
+                            </optgroup>
+                            <optgroup label="Amérique du Sud">
+                                <option value="argentine">Argentine</option>
+                                <option value="bolivie">Bolivie</option>
+                                <option value="bresil">Brésil</option>
+                                <option value="chili">Chili</option>
+                                <option value="colombie">Colombie</option>
+                                <option value="equateur">Équateur</option>
+                                <option value="guyana">Guyana</option>
+                                <option value="paraguay">Paraguay</option>
+                                <option value="perou">Pérou</option>
+                                <option value="suriname">Suriname</option>
+                                <option value="uruguay">Uruguay</option>
+                                <option value="venezuela">Venezuela</option>
+                            </optgroup>
+                            <optgroup label="Afrique">
+                                <option value="afghanistan">Afghanistan</option>
+                                <option value="afrique-du-sud">Afrique du Sud</option>
+                                <option value="algerie">Algérie</option>
+                                <option value="angola">Angola</option>
+                                <option value="benin">Bénin</option>
+                                <option value="botswana">Botswana</option>
+                                <option value="burkina-faso">Burkina Faso</option>
+                                <option value="burundi">Burundi</option>
+                                <option value="cabo-verde">Cabo Verde</option>
+                                <option value="cameroun">Cameroun</option>
+                                <option value="comores">Comores</option>
+                                <option value="congo">Congo</option>
+                                <option value="cote-divoire">Côte d'Ivoire</option>
+                                <option value="djibouti">Djibouti</option>
+                                <option value="egypte">Égypte</option>
+                                <option value="erythree">Érythrée</option>
+                                <option value="eswatini">Eswatini</option>
+                                <option value="ethiopie">Éthiopie</option>
+                                <option value="gabon">Gabon</option>
+                                <option value="gambie">Gambie</option>
+                                <option value="ghana">Ghana</option>
+                                <option value="guinee">Guinée</option>
+                                <option value="guinee-bissau">Guinée-Bissau</option>
+                                <option value="guinee-equatoriale">Guinée équatoriale</option>
+                                <option value="kenya">Kenya</option>
+                                <option value="lesotho">Lesotho</option>
+                                <option value="liberia">Liberia</option>
+                                <option value="libye">Libye</option>
+                                <option value="madagascar">Madagascar</option>
+                                <option value="malawi">Malawi</option>
+                                <option value="mali">Mali</option>
+                                <option value="maroc">Maroc</option>
+                                <option value="maurice">Maurice</option>
+                                <option value="mauritanie">Mauritanie</option>
+                                <option value="mozambique">Mozambique</option>
+                                <option value="namibie">Namibie</option>
+                                <option value="niger">Niger</option>
+                                <option value="nigeria">Nigeria</option>
+                                <option value="ouganda">Ouganda</option>
+                                <option value="rwanda">Rwanda</option>
+                                <option value="republique-centrafricaine">République centrafricaine</option>
+                                <option value="republique-democratique-du-congo">République démocratique du Congo</option>
+                                <option value="sao-tome-et-principe">Sao Tomé-et-Principe</option>
+                                <option value="senegal">Sénégal</option>
+                                <option value="seychelles">Seychelles</option>
+                                <option value="sierra-leone">Sierra Leone</option>
+                                <option value="somalie">Somalie</option>
+                                <option value="soudan">Soudan</option>
+                                <option value="soudan-du-sud">Soudan du Sud</option>
+                                <option value="swaziland">Swaziland</option>
+                                <option value="tanzanie">Tanzanie</option>
+                                <option value="tchad">Tchad</option>
+                                <option value="togo">Togo</option>
+                                <option value="tunisie">Tunisie</option>
+                                <option value="zambie">Zambie</option>
+                                <option value="zimbabwe">Zimbabwe</option>
+                            </optgroup>
+                            <optgroup label="Océanie">
+                                <option value="australie">Australie</option>
+                                <option value="fiji">Fidji</option>
+                                <option value="kiribati">Kiribati</option>
+                                <option value="marshall">Îles Marshall</option>
+                                <option value="micronesie">États fédérés de Micronésie</option>
+                                <option value="nauru">Nauru</option>
+                                <option value="nouvelle-zelande">Nouvelle-Zélande</option>
+                                <option value="palaos">Palaos</option>
+                                <option value="papouasie-nouvelle-guinee">Papouasie-Nouvelle-Guinée</option>
+                                <option value="salomon">Îles Salomon</option>
+                                <option value="samoa">Samoa</option>
+                                <option value="tonga">Tonga</option>
+                                <option value="tuvalu">Tuvalu</option>
+                                <option value="vanuatu">Vanuatu</option>
+                            </optgroup>
+                        </select>
+                    </section>
+                    <div class="nom">
+                        <input type="number" class="prenom" id="r" name="rue" placeholder="°n de rue">
+                        <input type="text" class="prenom" id="nr" name="nomrue" placeholder="Nom de rue">
+                    </div>
+                    <div class="nom">
+                        <input type="text" class="prenom" id="cp" name="codepostal" placeholder="Code postal">
+                        <input type="text" class="prenom" id="v" name="ville" placeholder="Ville">
+                    </div>
+                    <div>
+                        <input type="submit" name="envoyer" value="Envoyer" class="button" id="bt">
+                        <input type="reset" name="reset" value="Réinitialiser" class="button">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="ensemble">
+            <img class="foologo" src="images/logo.png" alt="logo GEO TEK">
+            <section class="liens">
+                <h3>Société</h3>
+                <a href="https://eco-g-e-o.webnode.fr" target="_blank"><p class="legal">A propos de nous</p></a>
+                <p class="legal">Offre d'emploi</p>
+            </section>
+            <section class="liens">
+                <h3>Liens utile</h3>
+                <a href="assistance.html" target="_blank"><p class="legal">Assistance</p></a>
+                <p class="legal">Appli mobile</p>
+                <a href="https://www.youtube.com/embed/n55tqLw8Ln8" target="_blank"><p class="legal">Campagne publicitaire</p></a>
+            </section>
+            <section class="liens">
+                <h3>Communauté</h3>
+                <p class="legal">Développeurs</p>
+                <p class="legal">Investisseurs</p>
+                <p class="legal">Fournisseurs</p>               
+            </section>
+            <div class="photo">
+                <a href="https://www.facebook.com/profile.php?id=61550969041207" target="_blank">
+                <img src="images/facebook.png" alt="facebook.png" class="rlogo"></a>
+                <a href="https://instagram.com/isggeotek?igshid=MmVlMjlkMTBhMg==" target="_blank">
+                <img src="images/instagram.png" alt="instagram.png" class="rlogo"></a>
+                <img src="images/twitter.png" alt="twitter.png" class="rlogo">
+                <img src="images/tiktok.png" alt="tiktok.png" class="rlogo">
+            </div>
+        </div>
+        <section class="legale">
+            <a href="indexes/legal.html" target="_blank"><h4>Légal</h4></a>
+            <a href="indexes/données.html" target="_blank"><h4>Protection des données</h4></a>
+            <a href="indexes/cookies.html" target="_blank"><h4>Paramètres des cookies</h4></a>
+            <a href="indexes/partenariats.html" target="_blank"><h4>Partenariats</h4></a>
+            <h4>©2023 GEO TEK</h4>
+            <h4>©2023 Solutio ISG</h4>
+            <h4>France</h4>
+        </section>
+    </footer>
+    <script src="sources/inscription.js"></script>
+    <script src="sources/script.js"></script>
+</body>
+</html>

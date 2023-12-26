@@ -1,0 +1,207 @@
+/* Ordinateurs (+ 1024px) */
+.start {
+    background-color: rgba(0,146,69,255);
+    background-image: url('../images/geofond.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+}
+#intro
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 16vh;
+    padding-left: 2vw;
+    width: 60%;
+    height: auto;
+}
+#intro h1, #intro h2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    /*padding-left: 20px;
+    padding-top: 230px;*/
+    font-size: 2vw;
+    color: white;
+}
+.liste.light-mode
+{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.liste.dark-mode
+{
+    background-color: #383838;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#what
+{
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-family: 'Arial Narrow', sans-serif;
+    font-weight: 100;
+    padding-top: 20px;
+}
+.instruction
+{
+    height: 60%;
+    width: auto;
+}
+.etapes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+    padding-left: 10vw;
+}
+.etape
+{
+    display: flex;
+    height: 30vh;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2vw;
+}
+.show.light-mode
+{
+    background-color: rgba(0,146,69,255);
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.show.dark-mode
+{
+    background-color: #252525;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+.button 
+{
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #383838;
+	cursor: pointer;
+}
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+#etalage
+{
+    width: 50%;
+    height: auto;
+}
+
+/*Dark Mode
+body.dark-mode
+{
+    background-color: #525252;
+}
+*/
+@media screen and (max-width: 1750px)
+{
+    .start
+    {
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 1620px)
+{
+    .start
+    {
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 1270px)
+{
+    .start
+    {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .start
+    {
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 980px)
+{
+    .start
+    {
+        height: 40vh;
+    }
+    #intro
+    {
+        padding-top: 12vh;
+    }
+    #etalage 
+    {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .start
+    {
+        height: 25vh;
+    }
+    #intro
+    {
+        padding-top: 12vh;
+    }
+    #etalage 
+    {
+        width: 50%;
+    }
+}

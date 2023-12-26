@@ -1,0 +1,153 @@
+#debut.light-mode
+{
+    display: flex;
+    min-height: 60vh;
+    background-color: rgba(0,146,69,255);
+}
+#debut.dark-mode
+{
+    display: flex;
+    min-height: 60vh;
+    background-color: #252525;
+}
+#video
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#principal
+{
+    background-color: rgba(0,146,69,255);
+    background-image: url('../images/geofond2.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 210vh;
+}
+.button 
+{
+	display: flex;
+    width: 120px;
+	margin-top: 18vh;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover 
+{
+	background-color: #FEFEFE;
+	color: #383838;
+	cursor: pointer;
+}
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+#expo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70vh;
+    width: 60%;
+    margin: 0 auto;
+}
+div.fin
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5vh;
+}
+#stores
+{
+    display: flex;
+    flex-direction: column;
+}
+.plateforme
+{
+    width: 90%;
+    height: auto;
+}
+.mockup
+{
+    width: 60%;
+    height: 30%;
+}
+
+@media screen and (max-width: 1750px)
+{
+    #principal
+    {
+        height: 180vh;
+    }
+}
+@media screen and (max-width: 1400px)
+{
+    #principal
+    {
+        height: 150vh;
+    }
+    #expo
+    {
+        padding-top: 50vh;
+    }
+}
+@media screen and (max-width: 1140px)
+{
+    #principal
+    {
+        height: 110vh;
+    }
+    #expo
+    {
+        padding-top: 20vh;
+    }
+}
+@media screen and (max-width: 870px)
+{
+    #principal
+    {
+        height: 80vh;
+    }
+    #expo
+    {
+        padding-top: 10vh;
+    }
+    div.fin
+    {
+        padding-top: 3vh;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    #principal
+    {
+        height: 50vh;
+    }
+    #expo
+    {
+        padding-top: 2vh;
+    }
+    div.fin
+    {
+        padding-top: 1vh;
+    }
+}

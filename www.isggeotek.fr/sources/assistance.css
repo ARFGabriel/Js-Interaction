@@ -1,0 +1,139 @@
+.help
+{
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #000000;
+	color: #000000;
+	transition: all 0.3s linear;
+}
+#aide.light-mode
+{
+    background-color: #FFFFFF;
+    display: flex;
+    min-height: 20vh;
+}
+#aide.dark-mode
+{
+    background-color: #383838;
+    display: flex;
+    min-height: 20vh;
+}
+h2.contact
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+section#formulaire.light-mode
+{
+    background-color: rgba(0,146,69,255);
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+section#formulaire.dark-mode
+{
+    background-color: #252525;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+#infos
+{
+    display: flex;
+    flex-direction: row;
+}
+.nom
+{
+    /*width: -webkit-fill-available;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prenom
+{
+    /*width: -webkit-fill-available;*/
+    margin-left: 0.35vw;
+    padding-right: 1.6vw;
+}
+div.form
+{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#nationalite
+{
+    width: 31.5vw;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 7.5px;
+}
+#countries
+{
+    width: -webkit-fill-available;
+    margin-left: 7.5px;
+}
+#requete
+{
+    width: 31.5vw;
+    margin-left: 7.5px;
+    margin-top: 10px;
+}
+.button
+{
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #000000;
+	transition: all 0.3s linear;
+}
+#phone
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+#google
+{
+    min-width: 98.9vw;
+    min-height: 50vh;
+    margin-bottom: 0;
+}
